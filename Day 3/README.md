@@ -1,5 +1,5 @@
-## Day 2:
-  - Understanding Data Types And How to Manipulates Strings
+## Day 3:
+  - Conditional Statment, Logical Operators, Code Blocks and Scope
 
-### Day 2 Project:
-  - Tip Calculator
+### Day 3 Project:
+  - Treasure Island
