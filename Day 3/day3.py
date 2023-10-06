@@ -15,27 +15,27 @@
 #     print("Odd number")
 
 # Nested If else
-height = int(input("Enter your height in cm? "))
+# height = int(input("Enter your height in cm? "))
 
-if height >= 120:
-    print("You can ride")
-    age = int(input("Enter your age: "))
-    if age < 12:
-        price = 5
-    elif age <= 18:
-        price = 7
-    else:
-        price = 12
+# if height >= 120:
+#     print("You can ride")
+#     age = int(input("Enter your age: "))
+#     if age < 12:
+#         price = 5
+#     elif age <= 18:
+#         price = 7
+#     else:
+#         price = 12
 
-    photo = input("Do you Want Photo taken? Y or N. ")
+#     photo = input("Do you Want Photo taken? Y or N. ")
 
-    if(photo == "Y"):
-        price += 3
+#     if(photo == "Y"):
+#         price += 3
 
-        print(f"Your Ticket Final Price is {price}") 
+#     print(f"Your Ticket Final Price is {price}") 
     
-else:
-    print("You can't ride")
+# else:
+#     print("You can't ride")
 
 # BMI Calculator
 
@@ -68,3 +68,34 @@ else:
 #         print("Year is leap year")
 # else:
 #     print("Year is not leap year")
+
+# Pizza Order
+
+print("Thanks for choosing our pizza shop today!")
+
+size = input(" What size pizza you wants? S, M or L. ")
+add_paneer = input("Do you want Paneer? Y or N. ")
+extra_chesse = input("Do you want extra cheese? Y or N. ")
+price = 0
+
+if(size == "S"):
+    price = 15
+elif(size == "M"):
+    price = 20
+elif(size == "L"):
+    price = 25
+else:
+    print("Pls Select valid size")
+
+if(add_paneer == "Y"):
+    if(size == "S"):
+        price += 2
+    elif(size == "M" or size == "L"):
+        price += 3
+    else:
+        print("Pls Select valid size")
+
+if(extra_chesse == "Y"):
+    price += 1
+
+print(f"Your Final Pizza Price is ${price}")
