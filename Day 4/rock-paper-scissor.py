@@ -36,8 +36,9 @@ list_choice = [rock, paper, scissors]
 
 # taking user choice
 our_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
-if our_choice > 2 and our_choice > 0:
+if our_choice > 2 or our_choice < 0:
     print("Invalid Number!! you lose.")
+
 else:
     print(f"Your Choice: {list_choice[our_choice]}")
 
