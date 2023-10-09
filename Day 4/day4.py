@@ -16,15 +16,20 @@ import random
 # else:
 #     print("Tails")
 
-# List
+# # List
+# fruits = ["Apple", "Banana", "Orange"]
+# print(fruits)
 
-fruits = ["Apple", "Banana", "Orange"]
-print(fruits)
+# # add item in end
+# fruits.append("Mengo")
+# print(fruits)
 
-# add item in end
-fruits.append("Mengo")
-print(fruits)
+# #add item at specific index
+# fruits.insert(1, "Pinapple")
+# print(fruits)
 
-#add item at specific index
-fruits.insert(1, "Pinapple")
-print(fruits)
+# Select random name from list
+
+name = ["Ravi", "Manan", "Akash", "Mohit"]
+bill_pay = name[random.randint(0, len(name)-1)]
+print(f"{bill_pay} is going to buy the meal today!")
