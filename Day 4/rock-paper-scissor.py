@@ -47,7 +47,7 @@ else:
     print(f"Computer Choice: {list_choice[compter_choice]}")
 
     if our_choice == compter_choice:
-        print("Draw")
+        print("It's a draw")
 
     elif our_choice == 0:
         if compter_choice != 2:
