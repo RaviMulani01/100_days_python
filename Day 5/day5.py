@@ -8,9 +8,10 @@
 # for i in range(1,10):
 #     print(i)
 
-target = int(input())
+# Sum of even number with range funtion
+# target = int(input())
 
-sum = 0
-for i in range(2, target+1,2):
-    sum += i
-print(sum)
+# sum = 0
+# for i in range(2, target+1,2):
+#     sum += i
+# print(sum)
