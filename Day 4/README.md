@@ -1,5 +1,5 @@
-## Day 3:
+## Day 4:
   - Randomisation and Python Lists
 
-### Day 3 Project:
+### Day 4 Project:
   - Roack Paper Scissors Game
