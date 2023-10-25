@@ -12,3 +12,7 @@ Day 16/coffee-machine/__pycache__/money_machine.cpython-310.pyc
 Day 16/coffee-machine/__pycache__/coffee_maker.cpython-310.pyc
 .gitignore
 Day 16/coffee-machine/__pycache__/menu.cpython-310.pyc
+Day 17/quiz-game/__pycache__/quiz_brain.cpython-310.pyc
+.gitignore
+Day 17/quiz-game/__pycache__/data.cpython-310.pyc
+Day 17/quiz-game/__pycache__/question_model.cpython-310.pyc
