@@ -19,3 +19,8 @@ Day 17/quiz-game/__pycache__/question_model.cpython-310.pyc
 Day 18/Hirst-Painting/image.jpg
 Day 18/Hirst-Painting/image_color.py
 Day 20/Snake-Game/__pycache__/snake.cpython-310.pyc
+Day 21/Snake-Game/__pycache__/snake.cpython-310.pyc
+.gitignore
+Day 21/Snake-Game/__pycache__/food.cpython-310.pyc
+.gitignore
+Day 21/Snake-Game/__pycache__/scoreboard.cpython-310.pyc
