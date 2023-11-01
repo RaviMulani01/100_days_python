@@ -24,3 +24,8 @@ Day 21/Snake-Game/__pycache__/snake.cpython-310.pyc
 Day 21/Snake-Game/__pycache__/food.cpython-310.pyc
 .gitignore
 Day 21/Snake-Game/__pycache__/scoreboard.cpython-310.pyc
+Day 22/Pong-Game/__pycache__/scoreboard.cpython-310.pyc
+.gitignore
+Day 22/Pong-Game/__pycache__/paddle.cpython-310.pyc
+.gitignore
+Day 22/Pong-Game/__pycache__/ball.cpython-310.pyc
