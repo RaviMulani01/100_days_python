@@ -29,7 +29,15 @@ class Snack:
         new_turtle.goto(position)
         self.turtle_list.append(new_turtle)
 
-          
+
+    def reset(self):
+        for seg in self.turtle_list:
+            seg.goto(1000,1000)
+        self.turtle_list.clear()
+        self.create_snake()
+        self.head = self.turtle_list[0]
+
+
     def extend(self):
         self.add_segment(self.turtle_list[-1].position())
 
